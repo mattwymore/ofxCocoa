@@ -84,9 +84,9 @@ namespace MSA {
 			 
 			if(initSettings().numFSAASamples) {
 			 NSOpenGLPixelFormatAttribute attribs[] = {
+             NSOpenGLPFAOpenGLProfile, NSOpenGLProfileVersion3_2Core,
 			 NSOpenGLPFAAccelerated,
 			 NSOpenGLPFADoubleBuffer,
-			 NSOpenGLPFAMultiScreen,
 			 NSOpenGLPFADepthSize, 24,
 			 NSOpenGLPFAAlphaSize, 8,
 			 NSOpenGLPFAColorSize, 32,

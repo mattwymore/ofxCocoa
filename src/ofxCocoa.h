@@ -43,6 +43,7 @@
 #import "GLWindow.h"
 #import "GLView.h"
 #import "Events.h"
+#import <Carbon/Carbon.h>
 
 namespace MSA {
 	namespace ofxCocoa {
